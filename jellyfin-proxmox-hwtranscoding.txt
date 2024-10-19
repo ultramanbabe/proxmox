@@ -72,8 +72,8 @@ nvidia-smi
 nano /etc/pve/lxc/###.conf
 
 
-lxc.cgroup2.devices.allow: c [The number you wrote down] :* rwm     
-lxc.cgroup2.devices.allow: c [The number you wrote down]:* rwm
+lxc.cgroup2.devices.allow: c 195:* rwm     
+lxc.cgroup2.devices.allow: c 510:* rwm
 
 ## My GPU number 195 and 510 
 
